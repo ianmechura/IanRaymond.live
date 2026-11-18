@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-04",
+  "site": "https://ianraymond.live",
+  "plugin_version": "1.1.1",
+  "installation": "WordPress: Plugin updated successfully.",
+  "public_signup": "https://ianraymond.live/text-updates/",
+  "privacy_policy": "https://ianraymond.live/privacy-policy/",
+  "terms_and_conditions": "https://ianraymond.live/sms-terms/",
+  "public_pages": "All three returned HTTP 200 without credentials.",
+  "verification": {
+    "php_lint": "passed for changed PHP files",
+    "messaging_tests": "29 checks passed",
+    "desktop_mobile": "No horizontal overflow; SMS consent unchecked and required; no delayed popup on public signup page.",
+    "form_test": "Mocked network only: unchecked consent blocked; checked consent submitted correct payload and displayed success. No subscriber created or SMS sent."
+  },
+  "campaign_samples": [
+    "Ian Raymond: My album Root Pass is out now. Listen at https://ianraymond.live/listen/ Reply STOP to unsubscribe.",
+    "Ian Raymond: New music is here! Listen to Josephine at https://ianraymond.live/listen/ Reply STOP to unsubscribe.",
+    "Ian Raymond: I'm playing [Venue] in [City] on [Date]! Show details and tickets: https://ianraymond.live/ Reply STOP to unsubscribe."
+  ],
+  "campaign_submission": "Thank you for your Campaign submission! Your A2P Campaign registration is being reviewed.",
+  "campaign_approval": "Pending review; Twilio precheck requested additional review.",
+  "send_queue": "Remains paused."
+}

@@ -1,0 +1,30 @@
+{
+  "site": "https://ianraymond.live",
+  "date": "2026-10-04",
+  "plugin_version": "1.1.0",
+  "installation": "WordPress reported Plugin updated successfully",
+  "sms_sender": "+17372583742",
+  "twilio_credentials": "saved in WordPress; secret not included in this report",
+  "inbound_webhook": "https://ianraymond.live/wp-json/irn/v1/twilio",
+  "inbound_method": "POST",
+  "twilio_webhook_save": "Webhook configured successfully",
+  "unsigned_webhook_check": {
+    "http_status": 403,
+    "code": "irn_signature"
+  },
+  "existing_subscriber_count": 2,
+  "send_queue": "left paused; existing pending messages not released",
+  "trial_limit": "Twilio trial permits predefined outbound templates, not custom SMS Body content",
+  "trial_source": "https://www.twilio.com/docs/usage/trials",
+  "sendgrid": "not configured; no SendGrid credentials or templates present",
+  "incoming_real_sms_test": "awaiting user text",
+  "outgoing_test": "not sent; account upgrade not finalized and queue remains paused",
+  "twilio_upgrade": "console at Step 3 Confirm and Pay; $20 starting balance and auto-recharge enabled in order summary; not finalized at last check",
+  "twilio_account_status": "Active with $20.00 available balance; phone-number inventory is empty",
+  "sms_sender_current": "+17372583742 is a retired trial sender shown on Twilio onboarding, not an owned number",
+  "number_purchase_blocker": "Twilio requires a primary compliance profile. Candidate SMS-capable local numbers shown at $1.15/month; no number purchased.",
+  "a2p_registration": "not submitted; pending profile verification and required details",
+  "queue": "paused pending verified profile, owned number, and approved messaging registration",
+  "compliance_profile": "Individual profile flow opened; Twilio Persona identity verification is pending user action and biometric-processing consent",
+  "number_purchase": "not purchased; pending identity verification"
+}

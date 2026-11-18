@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "url": "https://ianraymond.live/",
+      "build": "1.2.0-1790528468-d216e2a4afdc",
+      "tracks": 11,
+      "devil": {
+        "src": "https://ianraymond.live/wp-content/uploads/ian-listen/The%20Devil%20at%20the%20Door.mp3?v=1.2.0-1790528468-d216e2a4afdc",
+        "duration": 251.6,
+        "time": 0.716425,
+        "error": null
+      },
+      "bonus_playback": true,
+      "mobile_overflow": false
+    },
+    {
+      "url": "https://ianraymond.live/listen/",
+      "build": "1.2.0-1790528468-d216e2a4afdc",
+      "tracks": 11,
+      "devil": {
+        "src": "https://ianraymond.live/wp-content/uploads/ian-listen/The%20Devil%20at%20the%20Door.mp3?v=1.2.0-1790528468-d216e2a4afdc",
+        "duration": 251.6,
+        "time": 0.545852,
+        "error": null
+      },
+      "bonus_playback": true,
+      "mobile_overflow": false
+    }
+  ],
+  "deployed_asset_hashes_match": true,
+  "admin_api_requires_login": true
+}

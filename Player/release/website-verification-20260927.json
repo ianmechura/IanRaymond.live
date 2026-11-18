@@ -1,0 +1,80 @@
+[
+  {
+    "file": "40 Ounces of Beer.mp3",
+    "sha256": "73a592f364d5f6a39c689902369f831d2677f42aba01577adee957d3e679a62d",
+    "bytes": 12375660,
+    "last_modified": "Sun, 27 Sep 2026 16:09:55 GMT"
+  },
+  {
+    "file": "Diggin Holes.mp3",
+    "sha256": "d616fa4b8c5a2a7f566cb2808ef993e4095c656d1a05eb0216310ecf863eccc8",
+    "bytes": 10896614,
+    "last_modified": "Sun, 27 Sep 2026 16:09:58 GMT"
+  },
+  {
+    "file": "Josephine.mp3",
+    "sha256": "232f2c47a0b0e7e2af932ddeb86e22a08d6a63f4f9fc6e105bdc564359516d2e",
+    "bytes": 10177633,
+    "last_modified": "Sun, 27 Sep 2026 16:10:01 GMT"
+  },
+  {
+    "file": "Naked Billy B-Side Remix.mp3",
+    "sha256": "053dc55e9ac9c0e014c3ed57e5950b0dac900adb50bf951177026a2ae911d33e",
+    "bytes": 9203195,
+    "last_modified": "Sun, 27 Sep 2026 16:10:04 GMT"
+  },
+  {
+    "file": "NyQuil.mp3",
+    "sha256": "859aa7eb8c0b604970a409083a7ac94e7161717b40ed8896a048a7dcafe537d4",
+    "bytes": 8590981,
+    "last_modified": "Sun, 27 Sep 2026 16:10:06 GMT"
+  },
+  {
+    "file": "Prize Bull.mp3",
+    "sha256": "e0ad383da41bda0636f97ed06cfcfc359f71fbcccb88760f4733b3c9fbda6afd",
+    "bytes": 7978383,
+    "last_modified": "Sun, 27 Sep 2026 16:10:08 GMT"
+  },
+  {
+    "file": "She's Only Staying for the Kids.mp3",
+    "sha256": "73b42d8a52f32d5c92c15386fee1cac07027ca2ddced07fc2a92407d3f779ad6",
+    "bytes": 9935792,
+    "last_modified": "Sun, 27 Sep 2026 16:10:11 GMT"
+  },
+  {
+    "file": "The Devil at the Door.mp3",
+    "sha256": "7a814a8a72d8b9c51c55f4195bd1aa1155ab1336ec513a40ecedf47b4ccdb970",
+    "bytes": 10484584,
+    "last_modified": "Sun, 27 Sep 2026 16:10:13 GMT"
+  },
+  {
+    "file": "Unicorn Girl.mp3",
+    "sha256": "d46aada72b6897277ceb5b8c75a44ea16f3e434646f5895d4b3d9772cef22c8f",
+    "bytes": 8866782,
+    "last_modified": "Sun, 27 Sep 2026 16:10:16 GMT"
+  },
+  {
+    "file": "Wasn't She an Angel.mp3",
+    "sha256": "c61550e8e75770f8fc8c7afd6d4f2c17ad6fe62d96b7a29d9db82be553037383",
+    "bytes": 9668064,
+    "last_modified": "Sun, 27 Sep 2026 16:10:18 GMT"
+  },
+  {
+    "file": "What Do Ya Do.mp3",
+    "sha256": "677fe3d67f25688c7cdc7f9907bf739727429cd7ce5c3d8beb5693970a1ba75a",
+    "bytes": 10675722,
+    "last_modified": "Sun, 27 Sep 2026 16:10:21 GMT"
+  },
+  {
+    "file": "World vs. Me.mp3",
+    "sha256": "ff7643e683082ef3d87c7c6c42bc5f550db16dabb7e82705528d64936aa7ba55",
+    "bytes": 10513248,
+    "last_modified": "Sun, 27 Sep 2026 16:10:24 GMT"
+  },
+  {
+    "file": "album.json",
+    "sha256": "a5c0be56688bb723c17dcc7668c2e02e8ef63b7aec111fc4cccc8f0460fd8a87",
+    "bytes": 4539,
+    "last_modified": "Sun, 27 Sep 2026 16:09:52 GMT"
+  }
+]

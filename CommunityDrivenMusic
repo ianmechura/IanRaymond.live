@@ -1,0 +1,295 @@
+# Community-Driven Music
+
+Discussion record — September 30, 2026
+Owner: Ian Raymond
+Status: Idea and platform exploration for later development. No platform selected,
+software implementation authorized, or community launched during this discussion.
+
+## Ian's purpose
+
+Make audience participation in the music meaningful. Many projects invite people
+to “be part of it” but offer only shallow interaction with no effect on the work.
+Ian wants listeners' preferences and feedback to influence the music he releases,
+including which recordings or versions become part of an album.
+
+The project should also help attract visitors to Ian's website and get more
+people listening to his music. It is an ongoing community around Ian's work,
+not merely an audio hosting or professional mix-review service.
+
+## Experiences Ian wants to support
+
+- Post songs for listeners to review before deciding what to release.
+- Post multiple versions of the same song and let visitors choose their favorite.
+- Post a single version for feedback, without requiring a comparison.
+- Post short excerpts, potentially only a few seconds, for focused review.
+- Allow star ratings and optional comments.
+- Consider comments and requests when developing the music and selecting album
+  versions.
+- Give participants some community recognition; some degree of gamification is
+  desirable, but its form has not been chosen.
+
+## Participation and identity
+
+Ian strongly wants to avoid requiring people to create accounts. An email address
+or another lightweight means of recognizing returning contributors may be
+acceptable. No identity method has been selected.
+
+Existing accounts on an external platform may reduce friction for people already
+using it, but do not satisfy account-free participation for everyone. The account
+requirement remains a tradeoff to evaluate, not a requirement Ian has waived.
+
+Suggestions discussed, not adopted:
+
+- Let people listen and vote first, then optionally provide an email address and
+  public display name for recognition and follow-up.
+- Use emailed sign-in links instead of passwords for returning participants.
+- Offer song-specific acknowledgment or an album listener thank-you list.
+- Use badges, roles, points, levels, or leaderboards supplied by an existing
+  community platform.
+
+Persistent recognition requires a way to recognize a returning person. Anonymous
+voting is easier to repeat; verified email can reduce abuse but does not prove
+one person per vote. These tradeoffs need evaluation in the chosen platform.
+
+## Authorship and future collaboration
+
+Ian wants feedback and requests without unintentionally creating additional
+co-writers or ownership disputes over his existing songs.
+
+Later, if participation grows, Ian may deliberately write and release some songs
+under Creative Commons or into the public domain to enable an interactive,
+collaborative writing process with fans.
+
+Ordinary listening feedback and intentional collaborative songwriting therefore
+need different expectations and submission terms. No license, rights agreement,
+or legal conclusion was selected or established in this discussion. Choosing
+Creative Commons or public-domain treatment for Ian's work does not by itself
+settle the rights in other people's future contributions. This remains an issue
+for proper review before accepting and using contributed lyrics or music.
+
+## Build versus use an existing service
+
+Ian initially proposed a new plugin for the music website, but explicitly said
+he would consider an existing service if it could support the experience while
+also attracting visitors or listeners.
+
+Ian used Reddit as an example of a general community platform that could be
+adapted to the purpose. He meant creating and running HIS OWN community. He did
+not mean making someone else's subreddit the home of the project, and Reddit
+was not a final platform choice.
+
+Ian asked for an active comparison of alternatives, their advantages and
+disadvantages, and existing services. Merely repeating his ideas back was not
+helpful.
+
+Critical correction from Ian: do not build custom software first to prove the
+idea before trying an existing community solution. Evaluate and use an existing
+solution first where practical. Custom development would be considered later if
+actual experience reveals a worthwhile need that existing tools cannot meet.
+
+No platform trial, build, purchase, or launch was selected or authorized.
+
+## Community platform alternatives discussed
+
+These are research leads, not endorsed or selected solutions. Features and plan
+availability must be checked again before choosing a service. Discovery features
+do not guarantee an audience or traffic to Ian's website.
+
+### Facebook Groups
+
+Create Ian's own group with listening posts, discussion, polls, and contributor
+recognition. Public groups can be discovered within Facebook. Potentially low
+friction for fans who already use Facebook.
+
+Tradeoffs: Facebook identity is required for participation; community activity
+primarily happens on Facebook; limited control over audio comparison and the
+listener experience. Driving listeners onward to Ian's site needs a reason.
+
+Sources:
+- https://about.fb.com/news/2020/10/privacy-matters-the-new-public-groups/
+- https://about.fb.com/news/2026/09/find-community-forum-dedicated-app-facebook-groups/amp/
+
+### Reddit — Ian's own subreddit
+
+Public discussion, polls, persistent usernames, and recurring listening rounds.
+Could preserve the conversation around each musical decision. Ian controls the
+community's organization and moderation within Reddit's rules.
+
+Tradeoffs: voting and comments require Reddit accounts; audio comparison is not
+a purpose-built listening interface; creating a subreddit does not automatically
+bring an audience. Traffic and relationships remain substantially on Reddit.
+
+Sources:
+- https://redditinc.com/news/introducing-reddit-polls-an-all-new-post-type
+- https://support.reddithelp.com/hc/en-us/articles/360043033532-How-do-I-embed-a-Reddit-post-or-comment-in-an-article-or-other-publication
+
+### Discord
+
+Ian's own server with song discussions, polls, contributor roles, and live
+listening sessions. A possible fit for frequent interaction among active fans.
+
+Tradeoffs: account and joining/navigation friction for casual listeners; native
+polls are not anonymous. Built-in Server Discovery has eligibility requirements,
+including at least 1,000 members and a server age of eight weeks according to
+the documentation consulted. It should not be treated as immediate discovery
+for a new community.
+
+Sources:
+- https://support.discord.com/hc/en-us/articles/22163184112407-Polls-FAQ
+- https://support.discord.com/hc/en-us/articles/360030843331-Enabling-Server-Discovery
+- https://support.discord.com/hc/en-us/articles/11074987197975-Community-Onboarding-FAQ
+
+### Skool
+
+An owned group within Skool with community discussion, polls, points, levels,
+and leaderboards. Has a discovery directory with activity eligibility and ranking
+criteria. A candidate for combining visible recognition with platform discovery.
+
+Tradeoffs: members need accounts; host costs and plan details need checking;
+the platform may be unfamiliar to fans. Its documented points system rewards
+likes on posts/comments/replies, which may not correspond to careful listening
+or useful musical feedback.
+
+Sources:
+- https://help.skool.com/article/183-how-do-points-and-level-work
+- https://help.skool.com/article/153-discovery-faqs
+
+### Circle
+
+A branded hosted community with separate spaces, posts, polls, events, and
+gamification. Could organize songs and their discussions without building the
+whole community system.
+
+Tradeoffs: paid service and member signup. Treat it primarily as a home for an
+audience Ian attracts; research did not establish it as a source of new music
+listeners. Exact audio hosting/embedding and comparison behavior need checking.
+
+Sources:
+- https://help.circle.so/p/posts/post-spaces/create-polls
+- https://circle.so/gamification
+- https://help.circle.so/p/audience/gamification/get-to-know-gamification
+
+### Mighty Networks
+
+A hosted fan-community option with posts, polls, questions, discussions,
+livestreams, events, and recognition systems. Could suit a broader fan club
+with recurring listening events.
+
+Tradeoffs: paid hosting, membership friction, and potentially more platform than
+the initial concept needs. Audience acquisition and the exact audio workflow
+remain to be evaluated.
+
+Source:
+- https://www.mightynetworks.com/community
+
+### Discourse
+
+An independent forum, potentially on a subdomain of Ian's website. One topic
+could retain a song's versions, polls, replies, decisions, and badges in a
+searchable archive. Hosted and self-hosted approaches exist.
+
+Tradeoffs: hosting/administration responsibility; standard participation uses
+accounts. Email login links can reduce password friction but are not equivalent
+to account-free participation. No built-in audience should be assumed.
+
+Sources:
+- https://www.discourse.org/features
+- https://meta.discourse.org/t/direct-url-for-the-email-me-a-login-link-feature/343627
+
+### Existing WordPress community tools: BuddyBoss / wpForo
+
+Could add community functions to Ian's existing website without writing a whole
+community platform. BuddyBoss offers social-community features and gamification.
+wpForo offers forum discussions, reputation badges, and a separate polls add-on.
+
+Tradeoffs: plugin maintenance, configuration, potential licensing costs, and
+integration work. Their member-recognition systems generally depend on user
+identities. Account-free voting must be verified; it was not established as
+available out of the box. These tools do not automatically bring an audience.
+
+Sources:
+- https://buddyboss.com/blog/introducing-gamification/
+- https://wpforo.com/docs/wpforo-v3/settings/member-rating/
+- https://gvectors.com/product/wpforo-polls/
+- https://wordpress.org/plugins/wpforo/
+
+## Audio-specific tools encountered in research
+
+These may provide parts of the experience, but Ian correctly pointed out that a
+music service alone is not necessarily a community solution for this concept.
+
+- MixTester advertises multiple versions, instant A/B switching, favorite-mix
+  voting, timestamped comments, blind playback, and loudness matching. It could
+  supply an audio comparison component. Research did not establish audience
+  discovery, community recognition, or the exact reviewer-account requirements.
+  https://mixtester.com/
+- SoundCloud supports embedded audio, timestamped comments, public tracks, and
+  private sharing links. It could host recordings, but was not established as
+  a complete version-voting and community-impact system.
+  https://help.soundcloud.com/hc/en-us/articles/115003566008-Comments
+  https://help.soundcloud.com/hc/en-us/articles/115003453587
+- BandLab / ReverbNation Crowd Review appeared in research as a way to obtain
+  ratings and feedback. The article consulted was an older rollout announcement;
+  current availability was not verified. Paid or panel-based song review is a
+  different purpose from an ongoing community of Ian's fans.
+  https://blog.bandlab.com/introducing-crowd-review/
+- SoundRoster advertises fan voting and music discovery, but asks users to sign
+  up to vote and participate. It was not established as a place for Ian to run
+  his own development community or compare versions of his songs.
+  https://soundroster.com/for-artists
+
+## Possible operating practices — suggestions only
+
+These ideas were proposed by the assistant; Ian did not adopt them as a final
+design or authorize implementing them.
+
+- Run a specific listening question for each round, such as a preference between
+  two performances, while retaining single-song ratings and snippet reviews.
+- Offer “no preference” and “neither” where useful rather than forcing a choice.
+- For mix comparisons, use comparable loudness, neutral version labels, and
+  optional hidden results until a listener answers.
+- Keep feedback attached to the exact version heard, rather than replacing
+  audio underneath old comments.
+- Close rounds with a visible decision and an explanation of how feedback
+  affected the recording or release.
+- Recognize helpful participation without rewarding agreement with Ian or
+  voting for the eventual winner.
+- Consider song-specific acknowledgments and an optional album thank-you list.
+- Observe repeat participation and useful feedback, not only total vote counts.
+- Consider a combination of a hosted community and existing website audio,
+  without requiring a new plugin to try the concept.
+
+Josephine's original and gentle mouth-cleanup listening versions were suggested
+as possible comparison material. Ian did not authorize posting them publicly,
+select them for a community trial, or approve either as the official album
+version. Their earlier review-only status remains in effect.
+
+## Questions still open
+
+1. Which platform best matches Ian's actual prospective listeners and their
+   existing habits?
+2. Which options offer credible discovery of new listeners, and which primarily
+   require Ian to bring an audience?
+3. Is participation with an existing social account acceptable, or is fully
+   account-free participation essential?
+4. How easily can listeners hear a whole song, a short excerpt, and multiple
+   versions on each platform, especially on mobile?
+5. How should recognition work, and how much public identity should be optional?
+6. Should ratings and comments be public immediately, moderated first, or shown
+   only after a round closes?
+7. What feedback and submission terms will protect ordinary review activity,
+   and what separate terms would govern intentional songwriting collaboration?
+8. What hosting or subscription budget is acceptable?
+9. What specific limitation, observed in real use, would justify custom software?
+
+## Handoff instructions
+
+Continue from Ian's concept and constraints, not from an assumed platform choice.
+Provide concrete alternatives and tradeoffs. Do not simply paraphrase his ideas,
+focus only on the last example he mentions, or treat assistant suggestions as
+requirements Ian approved.
+
+The next useful work is evaluating existing solutions against this particular
+experience. Building a custom plugin first to validate demand was explicitly
+rejected. This file records the discussion for later work; it is not an
+implementation specification or permission to publish recordings.

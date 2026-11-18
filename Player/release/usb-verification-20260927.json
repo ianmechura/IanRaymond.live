@@ -1,0 +1,133 @@
+{
+  "files": [
+    {
+      "name": "Josephine.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/Josephine/Josephine - 20260927-054606.mp3",
+      "sha256": "232f2c47a0b0e7e2af932ddeb86e22a08d6a63f4f9fc6e105bdc564359516d2e"
+    },
+    {
+      "name": "Wasn't She an Angel.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/Wasn't She an Angel/Wasn't She an Angel - 20260927-054607.mp3",
+      "sha256": "c61550e8e75770f8fc8c7afd6d4f2c17ad6fe62d96b7a29d9db82be553037383"
+    },
+    {
+      "name": "The Devil at the Door.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/The Devil at the Door/The Devil at the Door - 20260925-093406.mp3",
+      "sha256": "7a814a8a72d8b9c51c55f4195bd1aa1155ab1336ec513a40ecedf47b4ccdb970"
+    },
+    {
+      "name": "40 Ounces of Beer.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/40 Ounces of Beer/40 Ounces of Beer - 20260927-081111.mp3",
+      "sha256": "73a592f364d5f6a39c689902369f831d2677f42aba01577adee957d3e679a62d"
+    },
+    {
+      "name": "What Do Ya Do.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/What Do Ya Do/What Do Ya Do - 20260927-054659.mp3",
+      "sha256": "677fe3d67f25688c7cdc7f9907bf739727429cd7ce5c3d8beb5693970a1ba75a"
+    },
+    {
+      "name": "She's Only Staying for the Kids.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/She's Only Staying for the Kids/She's Only Staying for the Kids - 20260927-054749.mp3",
+      "sha256": "73b42d8a52f32d5c92c15386fee1cac07027ca2ddced07fc2a92407d3f779ad6"
+    },
+    {
+      "name": "Diggin Holes.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/Diggin Holes/Diggin Holes - 20260927-095138.mp3",
+      "sha256": "d616fa4b8c5a2a7f566cb2808ef993e4095c656d1a05eb0216310ecf863eccc8"
+    },
+    {
+      "name": "World vs. Me.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/World vs. Me/World vs. Me - 20260927-054847.mp3",
+      "sha256": "ff7643e683082ef3d87c7c6c42bc5f550db16dabb7e82705528d64936aa7ba55"
+    },
+    {
+      "name": "Prize Bull.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/Prize Bull/Prize Bull - 20260927-054846.mp3",
+      "sha256": "e0ad383da41bda0636f97ed06cfcfc359f71fbcccb88760f4733b3c9fbda6afd"
+    },
+    {
+      "name": "Unicorn Girl.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/Unicorn Girl/Unicorn Girl - 20260927-105723.mp3",
+      "sha256": "d46aada72b6897277ceb5b8c75a44ea16f3e434646f5895d4b3d9772cef22c8f"
+    },
+    {
+      "name": "NyQuil.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/NyQuil/NyQuil - 20260927-054929.mp3",
+      "sha256": "859aa7eb8c0b604970a409083a7ac94e7161717b40ed8896a048a7dcafe537d4"
+    },
+    {
+      "name": "Naked Billy B-Side Remix.mp3",
+      "master": "/home/ian/Projects/Recording/Albums/Root Pass/Naked Billy B-Side Remix/Naked Billy B-Side Remix.mp3",
+      "sha256": "053dc55e9ac9c0e014c3ed57e5950b0dac900adb50bf951177026a2ae911d33e"
+    }
+  ],
+  "playback": [
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/Josephine.mp3?v=1790525286261",
+      "duration": 245.13,
+      "time": 0.257017,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/Wasn't%20She%20an%20Angel.mp3?v=1790525286261",
+      "duration": 230.98,
+      "time": 0.280153,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/The%20Devil%20at%20the%20Door.mp3?v=1790525286261",
+      "duration": 252.16,
+      "time": 0.302429,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/40%20Ounces%20of%20Beer.mp3?v=1790525286261",
+      "duration": 299.736508,
+      "time": 0.285208,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/What%20Do%20Ya%20Do.mp3?v=1790525286261",
+      "duration": 252.43,
+      "time": 0.302541,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/She's%20Only%20Staying%20for%20the%20Kids.mp3?v=1790525286261",
+      "duration": 239.700658,
+      "time": 0.298353,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/Diggin%20Holes.mp3?v=1790525286261",
+      "duration": 260.96,
+      "time": 0.308949,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/World%20vs.%20Me.mp3?v=1790525286261",
+      "duration": 254.88,
+      "time": 0.321872,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/Prize%20Bull.mp3?v=1790525286261",
+      "duration": 190.9,
+      "time": 0.298292,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/Unicorn%20Girl.mp3?v=1790525286261",
+      "duration": 211.25,
+      "time": 0.307542,
+      "error": null
+    },
+    {
+      "src": "file:///media/ian/BEA6-BBCE/Audio%20Files/NyQuil.mp3?v=1790525286261",
+      "duration": 204.87,
+      "time": 0.288413,
+      "error": null
+    }
+  ],
+  "bonus_playback": true
+}

@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "artist": "Ian Raymond",
+  "title": "Root Pass",
+  "subtitle": "",
+  "edition": "Albums & singles",
+  "year": 2026,
+  "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+  "playlist": "",
+  "welcome": {
+    "text": "",
+    "video": "",
+    "poster": ""
+  },
+  "booklet": {
+    "file": "",
+    "title": "Album booklet",
+    "intro": "",
+    "sections": []
+  },
+  "epk": {
+    "file": "",
+    "url": "https://ianraymond.live/wp-content/themes/ian-raymond/assets/Ian-Raymond-EPK.pdf"
+  },
+  "website": {
+    "url": "https://ianraymond.live/",
+    "label": "ianraymond.live",
+    "qr": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/website-qr.svg",
+    "qrDestination": "https://ianraymond.live/"
+  },
+  "socialLinks": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Grimfolk1"
+    },
+    {
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@outlawianraymond"
+    }
+  ],
+  "booking": {
+    "email": "Ian@IanRaymond.live",
+    "label": "Booking & press \u00b7 Ian@IanRaymond.live"
+  },
+  "secret": {
+    "revealDuringTrack": "nyquil",
+    "revealAtSeconds": 10,
+    "psychedelic": {
+      "bpm": 140
+    },
+    "caption": "Click here",
+    "track": {
+      "id": "naked-billy-b-side-remix",
+      "title": "Naked Billy B-Side Remix",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Naked%20Billy%20B-Side%20Remix.mp3",
+      "artwork": "",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 12
+    },
+    "note": {
+      "title": "Secret Song: Naked Billy B-Side Remix",
+      "paragraphs": [
+        {
+          "lead": "AI disclaimer:",
+          "text": "Every song on Root Pass was written and performed by Ian Raymond the old-fashioned way: on hundreds of index cards, with an Epiphone Studio guitar and a Shure SM58 microphone. On this album there's no comping and no pitch correction. Each song was recorded as a full take of guitar and vocals together, just as it would be performed live."
+        },
+        "The song you just discovered is a different animal. I wrote it the old-fashioned way, but it was performed 100% by AI using Suno Studio. It was an experiment that turned out too good to leave off, so I'm including it here for your enjoyment. Let me know what you think."
+      ],
+      "addLabel": "Add \u201cNaked Billy B-Side Remix\u201d to the playlist",
+      "closeLabel": "Close"
+    }
+  },
+  "tracks": [
+    {
+      "id": "josephine",
+      "title": "Josephine",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Josephine.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Josephine.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 1
+    },
+    {
+      "id": "wasnt-she-an-angel",
+      "title": "Wasn't She an Angel",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Wasn%27t%20She%20an%20Angel.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Wasn%27t%20She%20an%20Angel.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 2
+    },
+    {
+      "id": "the-devil-at-the-door",
+      "title": "The Devil at the Door",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/The%20Devil%20at%20the%20Door.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/The%20Devil%20at%20the%20Door.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 3
+    },
+    {
+      "id": "40-ounces-of-beer",
+      "title": "40 Ounces of Beer",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/40%20Ounces%20of%20Beer.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/40%20Ounces%20of%20Beer.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 4
+    },
+    {
+      "id": "what-do-ya-do",
+      "title": "What Do Ya Do",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/What%20Do%20Ya%20Do.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/What%20Do%20Ya%20Do.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 5
+    },
+    {
+      "id": "shes-only-staying-for-the-kids",
+      "title": "She's Only Staying for the Kids",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/She%27s%20Only%20Staying%20for%20the%20Kids.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/She%27s%20Only%20Staying%20for%20the%20Kids.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 6
+    },
+    {
+      "id": "diggin-holes",
+      "title": "Diggin Holes",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Diggin%20Holes.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Diggin%20Holes.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 7
+    },
+    {
+      "id": "world-vs-me",
+      "title": "World vs. Me",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/World%20vs.%20Me.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/World%20vs.%20Me.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 8
+    },
+    {
+      "id": "prize-bull",
+      "title": "Prize Bull",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Prize%20Bull.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Prize%20Bull.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 9
+    },
+    {
+      "id": "unicorn-girl",
+      "title": "Unicorn Girl",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Unicorn%20Girl.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Unicorn%20Girl.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 10
+    },
+    {
+      "id": "nyquil",
+      "title": "NyQuil",
+      "file": "https://ianraymond.live/wp-content/uploads/ian-listen/NyQuil.mp3",
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/NyQuil.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": "",
+      "releaseId": "root-pass",
+      "releaseTitle": "Root Pass",
+      "releaseArtwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "releaseNumber": 11
+    }
+  ],
+  "releases": [
+    {
+      "id": "root-pass",
+      "type": "album",
+      "title": "Root Pass",
+      "artworkId": 0,
+      "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/root-pass-cover.jpg",
+      "tracks": [
+        {
+          "id": "josephine",
+          "title": "Josephine",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Josephine.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Josephine.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "wasnt-she-an-angel",
+          "title": "Wasn't She an Angel",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Wasn%27t%20She%20an%20Angel.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Wasn%27t%20She%20an%20Angel.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "the-devil-at-the-door",
+          "title": "The Devil at the Door",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/The%20Devil%20at%20the%20Door.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/The%20Devil%20at%20the%20Door.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "40-ounces-of-beer",
+          "title": "40 Ounces of Beer",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/40%20Ounces%20of%20Beer.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/40%20Ounces%20of%20Beer.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "what-do-ya-do",
+          "title": "What Do Ya Do",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/What%20Do%20Ya%20Do.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/What%20Do%20Ya%20Do.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "shes-only-staying-for-the-kids",
+          "title": "She's Only Staying for the Kids",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/She%27s%20Only%20Staying%20for%20the%20Kids.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/She%27s%20Only%20Staying%20for%20the%20Kids.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "diggin-holes",
+          "title": "Diggin Holes",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Diggin%20Holes.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Diggin%20Holes.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "world-vs-me",
+          "title": "World vs. Me",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/World%20vs.%20Me.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/World%20vs.%20Me.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "prize-bull",
+          "title": "Prize Bull",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Prize%20Bull.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Prize%20Bull.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "unicorn-girl",
+          "title": "Unicorn Girl",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/Unicorn%20Girl.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/Unicorn%20Girl.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        },
+        {
+          "id": "nyquil",
+          "title": "NyQuil",
+          "file": "https://ianraymond.live/wp-content/uploads/ian-listen/NyQuil.mp3",
+          "artwork": "https://ianraymond.live/wp-content/plugins/ian-raymond-listen/player/content/artwork/songs/NyQuil.jpg",
+          "story": "",
+          "lyrics": "",
+          "credits": ""
+        }
+      ]
+    }
+  ]
+}

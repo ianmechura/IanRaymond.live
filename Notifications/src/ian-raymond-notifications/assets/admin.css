@@ -1,0 +1,17 @@
+.irn .nav-tab-wrapper { margin-bottom: 16px; }
+.irn-stats { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin: 8px 0 12px; font-size: 14px; }
+.irn-stats strong { font-size: 22px; margin-right: 4px; }
+.irn-stats form { display: flex; gap: 6px; align-items: center; }
+.irn-pause { margin: 4px 0 8px; padding: 10px 12px; background: #fff; border: 1px solid #c3c4c7; }
+.irn-card { max-width: 760px; margin: 0 0 16px; padding: 12px 16px; background: #fff; border: 1px solid #c3c4c7; }
+.irn-card label { display: block; margin: 0 0 10px; font-weight: 600; }
+.irn-card input[type=text], .irn-card input[type=url], .irn-card textarea { display: block; width: 100%; margin-top: 3px; font-weight: 400; }
+.irn-row { display: flex; gap: 12px; }
+.irn-row label { flex: 1; }
+.irn-event { margin: 0 0 10px; color: #50575e; }
+.irn-actions { display: flex; gap: 6px; align-items: center; }
+.irn-paused { border-left: 4px solid #d63638; }
+
+.irn-conversation {max-width: 850px;}
+.irn-conversation p {overflow-wrap: anywhere;}
+.irn #irn-reply-body {display:block;width:100%;max-width:800px;}

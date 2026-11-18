@@ -1,0 +1,177 @@
+// Edit content here; keep the player code unchanged. Paths are relative to PlayIanRaymond.html.
+// Leave optional text and paths empty to hide them. See CONTENT GUIDE.md for examples.
+window.IAN_ALBUM = {
+  "schemaVersion": 1,
+  "artist": "Ian Raymond",
+  "title": "Root Pass",
+  "subtitle": "",
+  "edition": "September 2026",
+  "year": 2026,
+  "artwork": "content/artwork/root-pass-cover.jpg",
+  "playlist": "music/Root Pass.m3u",
+  "welcome": {
+    "text": "",
+    "video": "",
+    "poster": ""
+  },
+  "booklet": {
+    "file": "",
+    "title": "Album booklet",
+    "intro": "",
+    "sections": []
+  },
+  "epk": {
+    "file": "content/documents/Ian-Raymond-EPK.pdf",
+    "url": "https://ianraymond.live/wp-content/themes/ian-raymond/assets/Ian-Raymond-EPK.pdf"
+  },
+  "website": {
+    "url": "https://ianraymond.live/",
+    "label": "ianraymond.live",
+    "qr": "content/artwork/website-qr.svg",
+    "qrDestination": "https://ianraymond.live/"
+  },
+  "socialLinks": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Grimfolk1"
+    },
+    {
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@outlawianraymond"
+    }
+  ],
+  "booking": {
+    "email": "Ian@IanRaymond.live",
+    "label": "Booking & press · Ian@IanRaymond.live"
+  },
+  "secret": {
+    "revealDuringTrack": "nyquil",
+    "revealAtSeconds": 10,
+    "psychedelic": {
+      "bpm": 140
+    },
+    "caption": "Click here",
+    "track": {
+      "id": "naked-billy-b-side-remix",
+      "title": "Naked Billy B-Side Remix",
+      "file": "content/extras/Naked Billy B-Side Remix.mp3",
+      "artwork": "",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    "note": {
+      "title": "Secret Song: Naked Billy B-Side Remix",
+      "paragraphs": [
+        {
+          "lead": "AI disclaimer:",
+          "text": "Every song on Root Pass was written and performed by Ian Raymond the old-fashioned way: on hundreds of index cards, with an Epiphone Studio guitar and a Shure SM58 microphone. On this album there's no comping and no pitch correction. Each song was recorded as a full take of guitar and vocals together, just as it would be performed live."
+        },
+        "The song you just discovered is a different animal. I wrote it the old-fashioned way, but it was performed 100% by AI using Suno Studio. It was an experiment that turned out too good to leave off, so I'm including it here for your enjoyment. Let me know what you think."
+      ],
+      "addLabel": "Add “Naked Billy B-Side Remix” to the playlist",
+      "closeLabel": "Close"
+    }
+  },
+  "tracks": [
+    {
+      "id": "josephine",
+      "title": "Josephine",
+      "file": "music/Josephine.mp3",
+      "artwork": "content/artwork/songs/Josephine.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "wasnt-she-an-angel",
+      "title": "Wasn't She an Angel",
+      "file": "music/Wasn't She an Angel.mp3",
+      "artwork": "content/artwork/songs/Wasn't She an Angel.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "the-devil-at-the-door",
+      "title": "The Devil at the Door",
+      "file": "music/The Devil at the Door.mp3",
+      "artwork": "content/artwork/songs/The Devil at the Door.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "40-ounces-of-beer",
+      "title": "40 Ounces of Beer",
+      "file": "music/40 Ounces of Beer.mp3",
+      "artwork": "content/artwork/songs/40 Ounces of Beer.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "what-do-ya-do",
+      "title": "What Do Ya Do",
+      "file": "music/What Do Ya Do.mp3",
+      "artwork": "content/artwork/songs/What Do Ya Do.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "shes-only-staying-for-the-kids",
+      "title": "She's Only Staying for the Kids",
+      "file": "music/She's Only Staying for the Kids.mp3",
+      "artwork": "content/artwork/songs/She's Only Staying for the Kids.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "diggin-holes",
+      "title": "Diggin Holes",
+      "file": "music/Diggin Holes.mp3",
+      "artwork": "content/artwork/songs/Diggin Holes.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "world-vs-me",
+      "title": "World vs. Me",
+      "file": "music/World vs. Me.mp3",
+      "artwork": "content/artwork/songs/World vs. Me.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "prize-bull",
+      "title": "Prize Bull",
+      "file": "music/Prize Bull.mp3",
+      "artwork": "content/artwork/songs/Prize Bull.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "unicorn-girl",
+      "title": "Unicorn Girl",
+      "file": "music/Unicorn Girl.mp3",
+      "artwork": "content/artwork/songs/Unicorn Girl.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    },
+    {
+      "id": "nyquil",
+      "title": "NyQuil",
+      "file": "music/NyQuil.mp3",
+      "artwork": "content/artwork/songs/NyQuil.jpg",
+      "story": "",
+      "lyrics": "",
+      "credits": ""
+    }
+  ]
+};

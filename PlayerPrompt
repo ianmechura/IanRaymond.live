@@ -1,0 +1,21 @@
+Section 1) 
+Now we are switching gears. Here is the end goal for this task. I am making a an album that will be distributed on usb thumb drives. It is going to contain the tracks, links to my youtube and other social media plus the main feature which is a built in
+audio player, purpose built to play my songs. The audio player has to be cross platform so its going to be
+built with html and javascript. Its going to load the tracks from the local drive and present
+an audio player style interface. It is going to be styled to match my website (ianraymond.live). The
+player itself will also have links out to my youtube channel, a way to view my EPK, and other 
+features. This is not going to be a large distribution, this is a special album that people get when they 
+meet me in person and want to hear more of music. Before you begin working on the plan I would like to know of anyother features that
+might be cool to include in the player. The main goal is that the listener plugs in the
+thumb drive, the foler pops up with a PlayIanRaymond.html file, they doubly click it and the player starts
+then they can immediatley click play and start hearing the music or they can select a different track and 
+play it. Everything created fo this task needs to live in a seperate Subdirectory Named Player 
+
+Section 2) There is going to be a new feature in the player. Whenever someone listens to the song called NyQuil (you have not seen it yet). Its going to reveal some kind of secret button or link. If they click it then it pops up a note from me with another button that allows them to add the secret song "Naked Billy B-Side Remix" to the play list for the session. The note will say the following (fix the grammar and spelling please):
+
+
+Secret Song: Naked Billy B-Side Remix
+
+AI Disclaimer: All of the songs on the Root Pass album were written and performed by Ian Raymond the old fashined way, on hundreds of index cards and an Epiphone Studio Guitar and a Sure SM58 Microphone. For this Album, there was no "Comping", no "Pitch Correction" and each song was recorded as a full take with combined guitar and vocals, just as it would be performed live. But, the song you have just discovered is a different animal, it was written and composed by Ian Raymond the old fashioned way but it was 100% performed by AI using Suno Studio. It was an experiment that turned out too good. So I decided to include it in this demo for you enjoyment. Let me know what you think.
+
+[Click Here to Add: "Naked Billy B-Side Remix" to the playlist] or [close]

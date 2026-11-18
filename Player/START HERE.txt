@@ -1,0 +1,22 @@
+IAN RAYMOND — ROOT PASS
+
+1. Open PlayIanRaymond.html in your web browser.
+2. Click PLAY ALBUM, or choose a song.
+
+The music and included press kit work without an internet connection.
+Website, YouTube and TikTok links need internet.
+
+Keep the complete folder together. You can copy it to your computer and
+open PlayIanRaymond.html there, too.
+
+Prefer your own music app? Open music/Root Pass.m3u, or any MP3 in music/.
+
+If a track does not play, select another track and check your audio output.
+The music folder is also available if your browser cannot run the player.
+
+Keyboard: Tab moves between controls; Enter/Space activates a focused
+button. Arrow keys adjust the seek and volume sliders. Space toggles
+play/pause when the page background has keyboard focus.
+
+To update files, close the player tab, copy in the replacements, then
+reopen PlayIanRaymond.html. See CONTENT GUIDE.md for details.

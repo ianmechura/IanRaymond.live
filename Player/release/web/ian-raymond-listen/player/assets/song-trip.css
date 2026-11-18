@@ -1,0 +1,104 @@
+/* NyQuil song page: the secret song (Naked Billy) unlocks the trip, then a crash, colour "worlds" and exploding bombs.
+   Colour effects are filters on the page's top-level elements, not on <html>, so .st-fx elements (bombs, controls,
+   reality windows) keep their own colours. Driven by song-trip.js. */
+@property --st-hue{syntax:'<angle>';inherits:true;initial-value:0deg}
+html.st-on{--beat:.4286s;--st-world:brightness(1);animation:st-hue calc(var(--beat)*24) linear infinite}
+html.st-on body>:not(.st-fx){filter:var(--st-world) hue-rotate(var(--st-hue)) saturate(2.4) contrast(1.08)}
+html.st-on body{overflow-x:hidden;background:linear-gradient(115deg,#1a0033,#3d0066,#00334d,#0d3300,#4d3300,#4d0026,#1a0033);background-size:400% 400%;animation:st-bg calc(var(--beat)*32) ease-in-out infinite}
+@keyframes st-hue{to{--st-hue:360deg}}
+@keyframes st-bg{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+/* Background layer: fractal canvas, spinning colour wheels, floating medicine */
+.st-layer{position:fixed;inset:0;z-index:40;pointer-events:none;mix-blend-mode:screen}
+.st-layer canvas{position:fixed;inset:0;width:100vw;height:100vh;opacity:.5;filter:blur(1px) saturate(1.4)}
+.st-layer i{position:absolute;inset:-25%;background:repeating-conic-gradient(from 0deg,#ff00c8 0 10deg,#00e5ff 10deg 20deg,#39ff14 20deg 30deg,#ffea00 30deg 40deg,#7a00ff 40deg 50deg);border-radius:50%;opacity:.3;animation:st-spin calc(var(--beat)*48) linear infinite;filter:blur(38px)}
+.st-layer i:nth-of-type(2){inset:10%;animation-direction:reverse;animation-duration:calc(var(--beat)*32);opacity:.25}
+@keyframes st-spin{to{transform:rotate(360deg)}}
+.st-sprite{position:absolute;left:var(--x);bottom:-120px;width:var(--size);animation:st-rise var(--dur) linear infinite;animation-delay:var(--delay);filter:drop-shadow(0 0 10px #b98aff)}
+.st-sprite svg,.st-bomb svg{display:block;width:100%;height:auto}
+@keyframes st-rise{from{transform:translate(0,0) rotate(0) scale(.7)}to{transform:translate(var(--drift),calc(-100vh - 240px)) rotate(var(--spin)) scale(1.15)}}
+.st-sprite.st-pop{animation-play-state:paused;transition:transform .35s cubic-bezier(.5,-1,.6,2),opacity .35s;transform:scale(2.2) rotate(200deg)!important;opacity:0}
+
+/* Letters */
+.st-w{white-space:pre-line}
+html.st-on .st-l{display:inline-block;white-space:pre;animation:st-wobble calc(var(--beat)*2) ease-in-out infinite,st-glow calc(var(--beat)*8) linear infinite;animation-delay:calc(var(--i)*-.11s)}
+@keyframes st-wobble{0%,100%{transform:translateY(0) rotate(0) scale(1)}25%{transform:translateY(-.12em) rotate(-6deg) scale(1.08)}75%{transform:translateY(.1em) rotate(5deg) scale(.95)}}
+@keyframes st-glow{0%{color:#ff4fd8;text-shadow:0 0 .25em #ff00c8}33%{color:#4ff0ff;text-shadow:0 0 .25em #00e5ff}66%{color:#c6ff4f;text-shadow:0 0 .25em #39ff14}100%{color:#ff4fd8;text-shadow:0 0 .25em #ff00c8}}
+html.st-on .irl-song .artwork{animation:st-cover calc(var(--beat)*8) ease-in-out infinite}
+@keyframes st-cover{0%,100%{transform:rotate(-4deg) skewX(0)}50%{transform:rotate(4deg) skewX(-6deg) scale(1.04)}}
+html.st-on .site-header{animation:st-tilt calc(var(--beat)*6) ease-in-out infinite}
+@keyframes st-tilt{0%,100%{transform:rotate(0)}50%{transform:rotate(-1.2deg) translateY(4px)}}
+
+/* Worlds after the crash. Filters go on each top-level element (a filter on body would break position:fixed). */
+html.st-negative{--st-world:invert(1)}
+html.st-thermal{--st-world:invert(1) hue-rotate(160deg) saturate(4) contrast(1.4)}
+html.st-noir{--st-world:grayscale(1) contrast(1.8) brightness(.9)}
+html.st-xray{--st-world:invert(1) grayscale(1) brightness(1.05) contrast(1.35)}
+html.st-noir body::after{content:'';position:fixed;inset:0;z-index:45;pointer-events:none;background:repeating-linear-gradient(0deg,#0006 0 2px,transparent 2px 4px)}
+
+/* Crash */
+html.st-shake body{animation:st-shake .09s linear infinite}
+@keyframes st-shake{0%{transform:translate(0,0)}25%{transform:translate(-9px,5px) rotate(-.6deg)}50%{transform:translate(8px,-6px) rotate(.5deg)}75%{transform:translate(-6px,-4px)}100%{transform:translate(0,0)}}
+html.st-bump body{animation:st-shake .08s linear 3}
+.st-flash{position:fixed;inset:0;z-index:60;pointer-events:none;background:#fff;animation:st-flash .45s ease-out forwards}
+@keyframes st-flash{from{opacity:.95}to{opacity:0}}
+.st-banner{position:fixed;left:0;right:0;top:42%;z-index:61;pointer-events:none;text-align:center;font:700 clamp(28px,6vw,84px)/1 var(--poster,Impact,sans-serif);letter-spacing:-1px;color:#fff;text-shadow:3px 0 #ff00c8,-3px 0 #00e5ff;animation:st-glitch .12s steps(2) infinite}
+@keyframes st-glitch{0%{transform:translate(0,0) skewX(0);clip-path:inset(0 0 0 0)}50%{transform:translate(-6px,2px) skewX(-8deg);clip-path:inset(20% 0 35% 0)}100%{transform:translate(5px,-3px) skewX(6deg);clip-path:inset(55% 0 5% 0)}}
+.st-caption{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:61;pointer-events:none;font:13px var(--mono,monospace);letter-spacing:1.6px;text-transform:uppercase;color:#fff;background:#000a;padding:8px 14px;white-space:nowrap}
+
+/* Bombs */
+.st-bomb{position:fixed;z-index:50;width:var(--size,64px);left:0;top:0;pointer-events:none;will-change:transform}
+.st-bomb .st-spark{transform-origin:center;animation:st-spark .12s linear infinite alternate}
+@keyframes st-spark{from{transform:scale(.7) rotate(0)}to{transform:scale(1.25) rotate(45deg)}}
+.st-boom{position:fixed;z-index:57;width:0;height:0;pointer-events:none}
+.st-boom b{position:absolute;left:-14px;top:-14px;width:28px;height:28px;border-radius:50%;background:radial-gradient(circle,#fff 0 20%,#ffe600 35%,#ff6a00 60%,#ff00c8 80%,transparent 82%);animation:st-burst .7s ease-out forwards}
+@keyframes st-burst{from{transform:translate(0,0) scale(.4);opacity:1}to{transform:translate(var(--dx),var(--dy)) scale(1.6);opacity:0}}
+.st-boom em{position:absolute;left:0;top:0;transform:translate(-50%,-50%);font:700 italic 46px/1 var(--poster,Impact,sans-serif);color:#ffe600;-webkit-text-stroke:2px #ff00c8;text-shadow:4px 4px 0 #000;white-space:nowrap;animation:st-word .8s cubic-bezier(.2,1.6,.4,1) forwards}
+@keyframes st-word{0%{transform:translate(-50%,-50%) scale(.2) rotate(-20deg);opacity:1}60%{transform:translate(-50%,-80%) scale(1.15) rotate(6deg);opacity:1}100%{transform:translate(-50%,-110%) scale(1) rotate(0);opacity:0}}
+.st-boom i{position:absolute;left:-60px;top:-60px;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,#fff8 0,#ffe60066 40%,transparent 70%);animation:st-ring .5s ease-out forwards}
+@keyframes st-ring{from{transform:scale(.2);opacity:1}to{transform:scale(2.4);opacity:0}}
+
+/* Make it stop */
+.st-stop{position:fixed;right:16px;bottom:16px;z-index:70;font:12px var(--mono,monospace);text-transform:uppercase;letter-spacing:.6px;background:#000c;color:#fff;border:1px solid #fff6;padding:10px 14px;cursor:pointer}
+.st-stop:hover{background:#000}
+html.st-calm body>:not(.st-fx){filter:invert(1);transition:filter .7s}
+
+/* Blast effects: nearby elements are thrown (individual translate/rotate properties, so they stack on the letter animations), singed, then spring back; the page is concussed. */
+.st-hit{transition:translate .16s cubic-bezier(.15,.9,.3,1),rotate .16s cubic-bezier(.15,.9,.3,1),filter .16s}
+.st-back{transition:translate 1.3s cubic-bezier(.3,1.6,.5,1),rotate 1.3s cubic-bezier(.3,1.6,.5,1),filter 1.6s}
+.st-singed{filter:brightness(.35) sepia(1) saturate(3) contrast(1.4)}
+.st-concuss{position:fixed;inset:0;z-index:58;pointer-events:none;backdrop-filter:blur(5px) brightness(1.9) saturate(.3);-webkit-backdrop-filter:blur(5px) brightness(1.9) saturate(.3);animation:st-concuss .7s ease-out forwards}
+@keyframes st-concuss{0%{opacity:1}100%{opacity:0}}
+.st-scorch{position:fixed;z-index:39;width:180px;height:180px;margin:-90px 0 0 -90px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,#000c 0,#1a0a00aa 35%,#3a1a0044 55%,transparent 70%);animation:st-scorch 4s ease-in forwards}
+@keyframes st-scorch{0%,60%{opacity:1}100%{opacity:0}}
+
+/* The secret: purple bottle beside the player, then the note (same look as the main player's) */
+.st-secret{display:inline-flex;flex-direction:column;align-items:center;gap:3px;margin:0 0 22px;padding:6px 10px 4px;background:#101010e6;border:1px solid #5b3a8c;border-radius:10px;color:#d8c2ff;cursor:pointer;animation:st-secret-in .9s ease both}
+.st-secret[hidden]{display:none}
+.st-secret svg{width:30px;height:45px;filter:drop-shadow(0 0 5px #9b5cff);animation:st-secret-pulse 1.8s ease-in-out infinite}
+.st-secret .cap{fill:#2d1450}.st-secret .glass{fill:#8a3ffc}.st-secret .label{fill:#efe4ff;opacity:.85}.st-secret .shine{fill:none;stroke:#e2d0ff;stroke-width:1.6;stroke-linecap:round;opacity:.7}
+.st-secret span{font:9px/1.4 var(--mono,monospace);letter-spacing:1px;text-transform:uppercase}.st-secret:hover span{text-decoration:underline}
+@keyframes st-secret-pulse{0%,100%{filter:brightness(.65) drop-shadow(0 0 2px #6d2fd0)}50%{filter:brightness(1.35) drop-shadow(0 0 14px #b98aff)}}
+@keyframes st-secret-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.st-note{background:#191914;color:var(--paper,#eee8d5);border:1px solid #7a4fc0;padding:28px;width:min(640px,calc(100% - 32px));max-height:85vh}
+.st-note::backdrop{background:#000b}.st-note h2{font:400 32px/1.15 var(--poster,Georgia,serif);margin:0 0 18px}
+.st-note p{font-size:15px;line-height:1.8;margin:0 0 14px;white-space:pre-wrap}.st-note strong{font:12px var(--mono,monospace);letter-spacing:.6px;text-transform:uppercase}
+.st-note-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.st-note-actions button{font:12px var(--mono,monospace);text-transform:uppercase;letter-spacing:.6px;min-height:46px;padding:0 20px;cursor:pointer;background:var(--paper,#eee8d5);color:#111;border:1px solid var(--paper,#eee8d5)}
+.st-note-actions button+button{background:transparent;color:inherit;border-color:#6a654f}
+
+/* Reality windows: some blasts tear a hole that shows the sober page behind the trip, then it closes */
+/* One animated radius (--st-r) drives both the hole and its rim, so they stay in step. */
+@property --st-r{syntax:'<length>';inherits:true;initial-value:0px}
+.st-real{position:fixed;inset:0;z-index:55;pointer-events:none;overflow:hidden}
+.st-real-hole{position:absolute;inset:0;clip-path:circle(var(--st-r) at var(--st-x) var(--st-y))}
+.st-real-page{position:absolute;left:0;top:0}
+.st-real-hole *{animation:none!important;transition:none!important}
+.st-real-ring{position:absolute;left:calc(var(--st-x) - var(--st-r));top:calc(var(--st-y) - var(--st-r));width:calc(var(--st-r) * 2);height:calc(var(--st-r) * 2);border-radius:50%;box-shadow:0 0 0 3px #fff,0 0 28px 10px #b98aff,inset 0 0 36px 6px #fff9}
+
+/* Rainbow bombs: stop and flash through the colours just before they blow; the big bomb swells too */
+.st-rainbow{animation:st-swell .18s ease-in-out infinite alternate}
+.st-rainbow svg>circle:first-of-type{animation:st-rbw .3s steps(1) infinite}
+.st-rainbow svg{filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 18px #ff00c8)}
+@keyframes st-rbw{0%{fill:#ff2a2a}16%{fill:#ff9d00}33%{fill:#ffe600}50%{fill:#2bd92b}66%{fill:#00b7ff}83%{fill:#b04bff}}
+@keyframes st-swell{from{scale:1}to{scale:1.12}}
